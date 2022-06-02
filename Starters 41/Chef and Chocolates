@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int x,y,z;
+        cin>>x>>y>>z;
+        int ans=(5*x)+(10*y);
+        int ans1=ans/z;
+        cout<<ans1<<endl;
+    }
+	// your code goes here
+	return 0;
+}
