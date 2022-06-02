@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n,x;
+        cin>>n>>x;
+        if(x==1)
+        cout<<"YES"<<endl;
+        else if(x==0)
+        {
+            if(n%2!=0)
+            cout<<"NO"<<endl;
+            else
+            cout<<"YES"<<endl;
+        }
+    }
+	// your code goes here
+	return 0;
+}
