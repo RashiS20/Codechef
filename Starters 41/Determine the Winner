@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int pa,pb,qa,qb;
+        cin>>pa>>pb>>qa>>qb;
+        int mxp=max(pa,pb);
+        int mxq=max(qa,qb);
+        if(mxq==mxp)
+        cout<<"TIE"<<endl;
+        else if(mxp<mxq)
+        cout<<"P"<<endl;
+        else
+        cout<<"Q"<<endl;
+    }
+    
+	// your code goes here
+	return 0;
+}
