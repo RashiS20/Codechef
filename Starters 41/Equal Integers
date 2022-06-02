@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int add1(int a,int b)
+{
+    return a+b;
+}
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int x,y;
+        cin>>x>>y;
+        int diff=x-y;
+        if(diff==0)
+        cout<<0<<endl;
+        else if(diff<0)
+        cout<<abs(diff)<<endl;
+        else{
+            if(diff%2==0)
+            cout<<diff/2<<endl;
+            else
+            cout<<(diff/2)+2<<endl;
+        }
+        
+    }
+	// your code goes here
+	return 0;
+}
