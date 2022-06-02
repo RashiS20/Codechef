@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+int add1(int a,int b)
+{
+    return a+b;
+}
+int add11(int a,int b)
+{
+    return a-b;
+}
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        long long num,kth;
+        cin>>num>>kth;
+        if(kth==1)
+        {
+            if(num%2==0)
+        cout<<"EVEN"<<endl;
+        else
+        cout<<"ODD"<<endl;
+        }
+       
+        
+        else if(kth==2)
+        {
+              cout<<"ODD"<<endl;
+        }
+       
+      else
+       cout<<"EVEN"<<endl;
+    }
+	// your code goes here
+	return 0;
+}
