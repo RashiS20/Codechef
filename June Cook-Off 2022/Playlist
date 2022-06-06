@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n,x;
+        cin>>n>>x;
+        int m=x*3;
+        cout<<n/m<<endl;
+    }
+	// your code goes here
+	return 0;
+}
