@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n,x;
+        cin>>n>>x;
+       
+        int minlen=2*x-1; 
+        if(n<minlen)
+        cout<<"-1"<<endl;
+        else
+        {
+             string str=string(n,'a');
+            for(int i=1;i<x;i++)
+            {
+                str[i-1]='a'+i;
+                str[n-i]='a'+i;
+            }
+            cout<<str<<endl;
+        }
+        
+    }
+	// your code goes here
+	return 0;
+}
