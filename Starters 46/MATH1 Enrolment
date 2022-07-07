@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int testcases;
+    cin>>testcases;
+    while(testcases--)
+    {
+        int x,y;
+        cin>>x>>y;
+        if(x>=y)
+        cout<<0<<endl;
+        else
+        cout<<abs(x-y)<<endl;
+    }
+	// your code goes here
+	return 0;
+}
