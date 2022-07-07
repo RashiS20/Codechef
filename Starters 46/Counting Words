@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int testcase;
+    cin>>testcase;
+    while(testcase--)
+    {
+        int nb,mb;
+        cin>>nb>>mb;
+        cout<<nb*mb<<endl;
+        
+    }
+	// your code goes here
+	return 0;
+}
